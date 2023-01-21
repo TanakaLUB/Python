@@ -8,4 +8,4 @@ class BookTest(unittest.TestCase):
 
         with mock.patch('app.testsample.Book') as book:
             instance = book.return_value
-            instance.method.return_value = 'the result'
+            instance.method.return_value = 'the resultaaaa'
